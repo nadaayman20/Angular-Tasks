@@ -1,0 +1,41 @@
+/* Start Header */
+header {
+  background-image: url("../../../assets/img/home.jpg");
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+/* End Header */
+/* Start Blog Section */
+.blog {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f1f1f1;
+}
+
+/* End Blog Section */
+
+/* Start Portfolio */
+#galary {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f1f1f1;
+}
+
+
+/* End Portfolio */
+
+/* Start Footer Section */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #333333;
+}
+
+.footer .icon i {
+  color: #fff;
+  margin-right: 20px;
+}

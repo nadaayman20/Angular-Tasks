@@ -1,0 +1,23 @@
+
+<div class="container">
+  <input
+    class="form-control w-100 my-5 "
+    [(ngModel)]="character"
+    (ngModelChange)="search()"
+    placeholder="Search ...."
+  />
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let post of posts; let i = index">
+      <div class="card alert alert-dark">
+        <div class="card-body">
+          <h1>{{ i }}</h1>
+          <h2>{{ post.title }}</h2>
+          <button class="btn btn-danger text-white mx-2" (click)="deletePosts(i)">delete</button>
+          <button class="btn btn-primary text-white" (click)="updatePosts(i)">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
